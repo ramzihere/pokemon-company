@@ -1,0 +1,96 @@
+body{
+	padding-bottom: 20px;
+	color: #5a5a5a;
+}
+.navbar-wrapper{
+	position: absolute;
+	top:0;
+	right: 0;
+	left: 0;
+	z-index: 20;
+}
+
+.navbar-wrapper .container{
+	padding-right: 0;
+	padding-left: 0;
+}
+.navbar-wrapper .navbar{
+	padding-right: 100px;
+	padding-left: 200px;
+}
+.navbar-wrapper .navbar .container{
+	width: auto;
+}
+.dropdown-item{
+	color: rgba(255,255,255,.5);
+}
+.carousel{
+	height: 500px;
+	margin-bottom: 50px !important;
+}
+.carousel .carousel-item{
+	height: 500px;
+	background-color: #777;
+}
+.carousel-inner .carousel-item img{
+	position: absolute;
+	height: 500px;
+	min-width: 100%;
+	top: 0;
+	left: 0;
+}
+.team .col-lg-4{
+	text-align: center;
+	margin-bottom: 20px;
+}
+.team h2{
+	color: rgba(50,50,50,0.8);
+}
+.team p{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.divider{
+	margin: 40px 0;
+}
+.mickey{
+	padding-left: 60px;
+	text-align: center;
+	padding-top: 80px;
+}
+.content{
+	margin-bottom: 30px;
+}
+footer{
+	padding: 20px 80px;
+	background-color: rgba(50, 50, 50, 0.7);
+	color: white;
+}
+.alignCenter{
+	text-align: center;
+}
+.parallax-window{
+	background: transparent;
+}
+@media (max-width: 576px){
+	.navbar-wrapper .navbar{
+		padding-left: 25px !important;
+		padding-right: 25px !important;
+	}
+}
+@media (max-width:768px){
+	.navbar-wrapper .navbar{
+		padding-left: 100px;
+		padding-right: 100px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
